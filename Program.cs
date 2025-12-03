@@ -16,6 +16,11 @@ class Pdp : University
   }
 }
 
+class AmaliyFanlar : University
+{
+  public override void Examination() => Console.WriteLine("Examination begin");
+}
+
 class Program
 {
   static void Main()
@@ -23,5 +28,9 @@ class Program
         var pdp = new Pdp();
         pdp.Examination();
         pdp.Teach();
+
+        var amaliyFanlar = new AmaliyFanlar();
+        amaliyFanlar.Examination();
+        amaliyFanlar.Teach();
   }
 }
