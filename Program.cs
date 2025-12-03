@@ -1,3 +1,10 @@
+interface IUniversities
+{
+    void Method1();
+    void Method2();
+    void Method3();
+}
+
 ﻿abstract class University
 {
   public void Teach()
